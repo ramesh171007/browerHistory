@@ -1,0 +1,61 @@
+.body {
+  font-family: Roboto;
+}
+.li-container {
+  list-style-type: none;
+  margin: 10px;
+}
+.app-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 400px;
+  margin-left: 10px;
+}
+.accessed-item-details {
+  display: flex;
+  align-items: center;
+}
+.btn-container {
+  align-self: center;
+}
+.classDomain {
+  margin-top: -15px;
+}
+button {
+  background-color: white;
+  border: none;
+}
+button:hover {
+  cursor: pointer;
+}
+.time {
+  font-weight: bold;
+  color: #475569;
+}
+.title {
+  font-weight: bold;
+  color: #475569;
+}
+.delete-img {
+  width: 25px;
+}
+@media screen and (min-width: 998px) {
+  .name-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .classDomain {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+  }
+  .app-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10px;
+    flex-grow: 1;
+  }
+}
